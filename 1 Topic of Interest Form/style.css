@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+h2 {
+    color: #444;
+    margin: 20px 0 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.due-date, .highlight {
+    background: #fbeeb8;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}

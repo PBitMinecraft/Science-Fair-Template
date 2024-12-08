@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f9f9f9;
+    color: #333;
+    line-height: 1.8;
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    color: #444;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.75rem;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 0.5rem;
+    margin-top: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul, ol {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+.highlight {
+    background: #fbeeb8;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    border-radius: 4px;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+strong, b {
+    color: #333;
+    font-weight: bold;
+}
+
+.download-link {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 1rem;
+    transition: background 0.3s ease;
+}
+
+.download-link:hover {
+    background: #0056b3;
+}
+
+hr {
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 1rem;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+}

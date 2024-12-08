@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #444;
+    margin: 20px 0 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.highlight {
+    background: #f1c40f;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+p {
+    margin-bottom: 20px;
+}
